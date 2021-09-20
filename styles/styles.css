@@ -131,7 +131,7 @@ section {
 
 .me {
     width: 60%;
-    margin: auto
+    margin: auto;
 }
 
 h1 {
@@ -180,4 +180,9 @@ footer > div > ul > li {
 
 .footer-text {
     margin: auto;
+}
+
+.contacts {
+    padding: 0 10px;
+    border: 1px solid var(--second-color);
 }
