@@ -192,12 +192,13 @@ footer > div > ul > li {
 .terra-img {
     border: 1px solid var(--text-color);
     width: 400px;
+    filter: brightness(50%);
 }
 
 .img-container {
     position: relative;
     text-align: center;
-    color: var(--text-color);
+    color: var(--main-color);
     font-size: 30px;
 }
 
