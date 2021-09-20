@@ -38,7 +38,35 @@ Want to learn some JS stuff to improve myself as a programmer.
 ```
 
 ## Experience
+1. System Administrator
+   - **Company Name**:  Minsk Regional Customs
+   - **Dates Employed**:  Feb 2013 – May 2017
+    
+2. 1C Developer
+   - **Company Name**:  Terra-incom
+   - **Dates Employed**:  May 2017 – Jun 2019
+    
+3. Python Developer
+   - **Company Name**:  Aithreading
+   - **Dates Employed**:  Jun 2019 – Sep 2020
+    
+4. Python Developer
+   - **Company Name**:  Satellite Innovation
+   - **Dates Employed**:  Sep 2020 – Present
 
 ## Educations
+* Universities:
+   1. Belarusian State University of Informatics and Radioelectronics
+      - Bachelor of Engineering
+      - Field Of Study: Automation Engineer Technology/Technician
+      - Dates attended or expected graduation: 2012 – 2016 
+   
+   2. MSHRC
+      - Field Of Study: electronic technician
+      - Dates attended or expected graduation: 2008 – 2012
+    
+* Courses:
+    1. iSpeak English club
 
 ## English level
+B2
