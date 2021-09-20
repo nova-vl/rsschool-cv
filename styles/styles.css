@@ -11,7 +11,6 @@ body {
   background-color: var(--main-background-color);
 }
 
-
 /*main {*/
 /*    width: 100%;*/
 /*}*/
@@ -19,6 +18,9 @@ body {
 /*footer {*/
 /*    width: 100%;*/
 /*}*/
+a {
+    color: inherit;
+}
 
 section {
     /*display: flex;*/
@@ -185,4 +187,35 @@ footer > div > ul > li {
 .contacts {
     padding: 0 10px;
     border: 1px solid var(--second-color);
+}
+
+.terra-img {
+    border: 1px solid var(--text-color);
+    width: 400px;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 30px;
+}
+
+.terra-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eng-lvl {
+    padding: 3px;
+    border: 1px solid var(--line-color);
+    background-color: var(--main-color);
+    border-radius: 15px;
+}
+
+.ul-centered {
+  display: table;
+  margin: auto;
 }
