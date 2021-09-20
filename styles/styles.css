@@ -10,11 +10,17 @@ body {
 }
 
 .wrapper {
+    display: block;
     margin: 20px auto;
 }
 
-.header {
+.about-me {
     display: flex;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: space-around;
 }
 
 main {
@@ -23,4 +29,8 @@ main {
 
 footer {
     width: 100%;
+}
+
+.nav > ul > li {
+    display: inline-block;
 }
