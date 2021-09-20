@@ -219,3 +219,19 @@ footer > div > ul > li {
   display: table;
   margin: auto;
 }
+
+.span-orange {
+    color: orange;
+}
+
+.span-darkviolet {
+    color: darkviolet;
+}
+
+.span-lightblue {
+    color: lightblue;
+}
+
+.span-violet {
+    color: violet;
+}
