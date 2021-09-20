@@ -4,6 +4,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Vyacheslav Novikov CV</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -15,7 +18,6 @@
 					<li>Education</li>
 					<li>Experience</li>
 					<li>Code example</li>
-					<li>Contacts</li>
 				</ul>
 			</nav>
 
@@ -24,108 +26,120 @@
 		<main>
 			<section class="about-me">
 				<div class="photo">
-					<img src="images/photo1.png" alt="my-photo">
+					<img src="images/photo.png" alt="my-photo" class="my-photo">
 				</div>
-				<div class="me">
-					<h1>Vyacheslav Novikov</h1>
+				<div class="personal-information">
+					<div class="me">
+						<h1>Vyacheslav Novikov</h1>
+					</div>
+					<div class="spec">
+						<h2>Hello, I am Python Developer</h2>
+					</div>
+					<section class="contacts">
+						<ul class="contact-list">
+							<li><img src="images/discord-brands.svg" class="contact-icon"> <p>nova-vl#5992</p></li>
+							<li><img src="images/envelope-solid.svg" class="contact-icon"> 2nova.work@gmail.com</li>
+							<li><img src="images/mobile-alt-solid.svg" class="contact-icon"> +375-29-853-37-33</li>
+							<li><img src="images/github-square-brands.svg" class="contact-icon"> https://github.com/nova-vl</li>
+							<li><img src="images/linkedin-brands.svg" class="contact-icon"> https://www.linkedin.com/in/vyacheslav-novikov-1b04081b5/</li>
+						</ul>
+					</section>
 				</div>
-				<div class="spec">
-					<h2>Python Developer</h2>
-				</div>
-				<section class="contacts">
-					Contacts
+			</section>
+			<section class="skills section-1">
+				<h3 class="section-header section-header-left">Skills</h3>
+				<div class="section-content">
 					<ul>
-						<li>Discord username: nova-vl#5992</li>
-						<li>E-mail: 2nova.work@gmail.com</li>
-						<li>Phone number: +375-29-853-37-33</li>
-						<li>Github profile: https://github.com/nova-vl</li>
-						<li>Linkedin Page: https://www.linkedin.com/in/vyacheslav-novikov-1b04081b5/</li>
+						<li>Python</li>
+						<li>Git</li>
+						<li>DBMS</li>
+						<li>Docker</li>
+						<li>AWS</li>
+						<li>HTML & CSS</li>
+						<li>JS</li>
 					</ul>
-				</section>
+				</div>
 			</section>
-			<section class="skills">
-				<h3>Skills</h3>
-				<ul>
-					<li>Python</li>
-					<li>Git</li>
-					<li>DBMS</li>
-					<li>Docker</li>
-					<li>AWS</li>
-					<li>HTML & CSS</li>
-					<li>JS</li>
-				</ul>
+			<section class="education section-2">
+				<h3 class="section-header section-header-right">Education</h3>
+				<div class="section-content">
+					<ul>
+						<li>Belarusian State University of Informatics and Radioelectronics
+							<ul>
+								<li>Bachelor of Engineering</li>
+								<li>Field Of Study: Automation Engineer Technology/Technician</li>
+								<li>Dates attended or expected graduation: 2012 – 2016</li>
+							</ul>
+						</li>
+						<li>MSHRC
+							<ul>
+								<li>Field Of Study: Electronic technician</li>
+								<li>Dates attended or expected graduation: 2008 – 2012</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</section>
-			<section class="education">
-				<h3>Education</h3>
-				<ul>
-					<li>Belarusian State University of Informatics and Radioelectronics
-						<ul>
-							<li>Bachelor of Engineering</li>
-							<li>Field Of Study: Automation Engineer Technology/Technician</li>
-							<li>Dates attended or expected graduation: 2012 – 2016</li>
-						</ul>
-					</li>
-					<li>MSHRC
-						<ul>
-							<li>Field Of Study: Electronic technician</li>
-							<li>Dates attended or expected graduation: 2008 – 2012</li>
-						</ul>
-					</li>
-				</ul>
+			<section class="experience section-1">
+				<h3 class="section-header section-header-left">Experience</h3>
+				<div class="section-content">
+					<ul>
+						<li>System Administrator
+							<ul>
+								<li>Company Name: Minsk Regional Customs</li>
+								<li>Dates Employed: Feb 2013 – May 2017</li>
+							</ul>
+						</li>
+						<li>1C Developer
+							<ul>
+								<li>Company Name: Terra-incom</li>
+								<li>Dates Employed: May 2017 – Jun 2019</li>
+							</ul>
+						</li>
+						<li>Python Developer
+							<ul>
+								<li>Company Name: Aithreading</li>
+								<li>Dates Employed: Jun 2019 – Sep 2020</li>
+							</ul>
+						</li>
+						<li>Python Developer
+							<ul>
+								<li>Company Name: Satellite Innovation</li>
+								<li>Dates Employed: Sep 2020 – Present</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 			</section>
-			<section class="experience">
-				<h3>Experience</h3>
-				<ul>
-					<li>System Administrator
-						<ul>
-							<li>Company Name: Minsk Regional Customs</li>
-							<li>Dates Employed: Feb 2013 – May 2017</li>
-						</ul>
-					</li>
-					<li>1C Developer
-						<ul>
-							<li>Company Name: Terra-incom</li>
-							<li>Dates Employed: May 2017 – Jun 2019</li>
-						</ul>
-					</li>
-					<li>Python Developer
-						<ul>
-							<li>Company Name: Aithreading</li>
-							<li>Dates Employed: Jun 2019 – Sep 2020</li>
-						</ul>
-					</li>
-					<li>Python Developer
-						<ul>
-							<li>Company Name: Satellite Innovation</li>
-							<li>Dates Employed: Sep 2020 – Present</li>
-						</ul>
-					</li>
-				</ul>
-			</section>
-			<section class="example">
-				<h3>Code example</h3>
-				<pre>
-					def __init__(self, name):
-						self.name = name
-						self.img = cv.imread(MAP_FILE, cv.IMREAD_COLOR)
-						if self.img is None:
-							print('Could not load map file {}'.format(MAP_FILE), file=sys.stderr)
-							sys.exit(1)
+			<section class="example section-2">
+				<h3 class="section-header section-header-right">Code example</h3>
+				<div class="section-content example-content">
+					<pre>
+						<code>
+def __init__(self, name):
+	self.name = name
+	self.img = cv.imread(MAP_FILE, cv.IMREAD_COLOR)
+	if self.img is None:
+		print('Could not load map file {}'.format(MAP_FILE), file=sys.stderr)
+		sys.exit(1)
 
-						self.area_actual = 0
-						self.sailor_actual = [0, 0]  # As "local" coords within search area
-						self.sa1 = self.img[SA1_CORNERS[1]: SA1_CORNERS[3], SA1_CORNERS[0]: SA1_CORNERS[2]]
-						self.sa2 = self.img[SA2_CORNERS[1]: SA2_CORNERS[3], SA2_CORNERS[0]: SA2_CORNERS[2]]
-						self.sa3 = self.img[SA3_CORNERS[1]: SA3_CORNERS[3], SA3_CORNERS[0]: SA3_CORNERS[2]]
-				</pre>
+	self.area_actual = 0
+	self.sailor_actual = [0, 0]  # As "local" coords within search area
+	self.sa1 = self.img[SA1_CORNERS[1]: SA1_CORNERS[3], SA1_CORNERS[0]: SA1_CORNERS[2]]
+	self.sa2 = self.img[SA2_CORNERS[1]: SA2_CORNERS[3], SA2_CORNERS[0]: SA2_CORNERS[2]]
+	self.sa3 = self.img[SA3_CORNERS[1]: SA3_CORNERS[3], SA3_CORNERS[0]: SA3_CORNERS[2]]
+						</code>
+					</pre>
+				</div>
 			</section>
 		</main>
-
 		<footer>
 			<div class="footer-content">
-				<a href="https://github.com/nova-vl" class="text">GitHub</a>
-				<span class="text">2021</span>
-				<a href="https://rs.school/js-stage0/"><img src="images/logo.png" alt="rs-logo"></a>
+				<ul>
+					<li><a href="https://github.com/nova-vl"><img src="images/github-square-brands2.svg" alt="github" id="gh-icon"></a></li>
+					<li class="footer-text"><span>Rolling Scopes, 2021</span></li>
+					<li><a href="https://rs.school/js-stage0/"><img src="images/logo.png" alt="rs-logo" id="rs"></a></li>
+				</ul>
       		</div>
 		</footer>
 	</div>
