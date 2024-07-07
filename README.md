@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nova-vl.github.io/rsschool-cv/

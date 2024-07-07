@@ -1,0 +1,241 @@
+:root {
+    --main-color: #F9F9F9;
+    --second-color: #DBDBDB;
+    --line-color: #477564;
+    --main-background-color: #FFFFFF;
+    --text-color: #000000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--main-background-color);
+}
+
+/*main {*/
+/*    width: 100%;*/
+/*}*/
+
+/*footer {*/
+/*    width: 100%;*/
+/*}*/
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: var(--main-color);
+}
+
+.personal-information {
+    color: var(--second-color);
+}
+
+.wrapper {
+    width: 800px;
+    display: block;
+    margin: 20px auto;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 1.3;
+    color: var(--text-color);
+    /*box-shadow: 10px 10px 30px -1px var(--line-color);*/
+}
+
+.about-me {
+    display: flex;
+}
+
+
+.section-header {
+    width: 100%;
+    border-bottom: 2px solid var(--line-color);
+}
+
+.section-header-left {
+    text-align: left;
+}
+
+.section-header-right {
+    text-align: right;
+}
+
+.section-content {
+    width: 60%;
+    margin: auto;
+}
+
+.section-2{
+    padding: 20px;
+    border-right: 2px solid var(--line-color);
+    margin-bottom: 10px;
+}
+
+.section-1{
+    padding: 20px;
+    background-color: var(--second-color);
+    border-left: 2px solid var(--line-color);
+    margin-bottom: 10px;
+}
+
+.nav {
+    background-color: var(--line-color);
+    margin-bottom: 10px;
+}
+
+.nav > ul {
+    display: table;
+    margin: auto;
+}
+
+.nav > ul > li {
+    margin: 10px 5px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid var(--main-color);
+    color: var(--second-color);
+}
+
+
+.my-photo {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid var(--second-color);
+    width: 250px;
+}
+
+.about-me {
+    background-color: var(--line-color)
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    background-color: var(--second-color);
+    border-radius: 20px;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-list li {
+    padding: 5px 0;
+}
+
+.contact-list li p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.contact-list li img {
+    vertical-align: middle;
+}
+
+.me {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+code {
+    font-family: "PT Mono", monospace;
+    font-size: 12px;
+}
+
+.example-content {
+    padding: 10px;
+    border: 1px solid var(--line-color);
+    width: 90%;
+}
+
+footer {
+    background-color: var(--second-color);
+}
+
+footer > div > ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+footer > div > ul > li {
+    margin: 10px 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+#rs {
+    width: 100px
+}
+
+#gh-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-text {
+    margin: auto;
+}
+
+.contacts {
+    padding: 0 2px;
+    border: 1px solid var(--second-color);
+    margin: 10px;
+}
+
+.terra-img {
+    border: 1px solid var(--text-color);
+    width: 400px;
+    filter: brightness(50%);
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.terra-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eng-lvl {
+    padding: 3px;
+    border: 1px solid var(--line-color);
+    background-color: var(--main-color);
+    border-radius: 15px;
+}
+
+.ul-centered {
+    display: table;
+    margin: auto;
+}
+
+.span-orange {
+    color: orange;
+}
+
+.span-darkviolet {
+    color: darkviolet;
+}
+
+.span-lightblue {
+    color: lightblue;
+}
+
+.span-violet {
+    color: violet;
+}
