@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Viachaslau Novikau CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -11,33 +14,160 @@
     <header class="header">
         <nav class="nav">
             <ul>
-                <li>Skills</li>
-                <li>Education</li>
-                <li>Experience</li>
-                <li>Code example</li>
-                <li>Contacts</li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#code-example">Code example</a></li>
+                <li><a href="#lang-courses">Language courses</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
-        <div class="photo">
-            <img src="images/photo.png" alt="my-photo">
-        </div>
-        <div class="me">Viachaslau Novikau</div>
-        <div class="spec">Python Developer</div>
+
     </header>
 
     <main>
-        <section class="skills">Skills</section>
-        <section class="education">Education</section>
-        <section class="experience">Experience</section>
-        <section class="example">Code example</section>
+        <section class="about-me">
+            <div class="photo">
+                <img src="images/photo.png" alt="my-photo" class="my-photo">
+            </div>
+            <div class="personal-information">
+                <div class="me">
+                    <h1>Viachaslau Novikau</h1>
+                </div>
+                <div class="spec">
+                    <p>Hello, I am Backend Developer from Satellite Innovations. Currently live in Bialystok, Poland.
+                        Nice to meet you! I hope you enjoy these courses!</p>
+                </div>
+                <section class="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contact-list">
+                        <li><img src="images/discord-brands.svg" class="contact-icon" alt="discord-icon">2nova</li>
+                        <li><img src="images/envelope-solid.svg" class="contact-icon" alt="email-icon">2nova.work@gmail.com</li>
+                        <li><img src="images/mobile-alt-solid.svg" class="contact-icon" alt="phone-icon">+48-500-712-915</li>
+                        <li><img src="images/github-square-brands.svg" class="contact-icon" alt="github-icon"><a href="https://github.com/nova-vl" target="_blank">https://github.com/nova-vl</a></li>
+                        <li><img src="images/linkedin-brands.svg" class="contact-icon" alt="linked-icon"><a href="https://www.linkedin.com/in/vyacheslav-novikov-1b04081b5/" target="_blank">https://www.linkedin.com/in/vyacheslav-novikov-1b04081b5/</a></li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <section class="skills section-1" id="skills">
+            <h3 class="section-header section-header-left">Skills</h3>
+            <div class="section-content">
+                <ul class="ul-centered">
+                    <li>Python</li>
+                    <li>Git</li>
+                    <li>DBMS</li>
+                    <li>Docker</li>
+                    <li>AWS</li>
+                    <li>HTML & CSS</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+        </section>
+        <section class="education section-2" id="education">
+            <h3 class="section-header section-header-right">Education</h3>
+            <div class="section-content">
+                <ul>
+                    <li>Belarusian State University of Informatics and Radioelectronics
+                        <ul>
+                            <li>Bachelor of Engineering</li>
+                            <li>Field Of Study: Automation Engineer Technology/Technician</li>
+                            <li>Dates attended or expected graduation: 2012 – 2016</li>
+                        </ul>
+                    </li>
+                    <li>MSHRC
+                        <ul>
+                            <li>Field Of Study: Electronic technician</li>
+                            <li>Dates attended or expected graduation: 2008 – 2012</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="experience section-1" id="experience">
+            <h3 class="section-header section-header-left">Experience</h3>
+            <div class="section-content">
+                <ul>
+                    <li>System Administrator
+                        <ul>
+                            <li>Company Name: Minsk Regional Customs</li>
+                            <li>Dates Employed: Feb 2013 – May 2017</li>
+                        </ul>
+                    </li>
+                    <li>1C Developer
+                        <ul>
+                            <li>Company Name: Terra-incom</li>
+                            <li>Dates Employed: May 2017 – Jun 2019</li>
+                        </ul>
+                    </li>
+                    <li>Python Developer
+                        <ul>
+                            <li>Company Name: Aithreading</li>
+                            <li>Dates Employed: Jun 2019 – Sep 2020</li>
+                        </ul>
+                    </li>
+                    <li>Python Developer
+                        <ul>
+                            <li>Company Name: Satellite Innovation</li>
+                            <li>Dates Employed: Sep 2020 – Present</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="example section-2" id="code-example">
+            <h3 class="section-header section-header-right">Code example</h3>
+            <div class="section-content example-content">
+					<pre>
+						<code>
+<span class="span-orange">def</span> <span class="span-darkviolet">__init__</span>(<span class="span-violet">self</span>, name):
+	<span class="span-violet">self</span>.name = name
+	<span class="span-violet">self</span>.img = cv.imread(MAP_FILE, cv.IMREAD_COLOR)
+	<span class="span-orange">if</span> <span class="span-violet">self</span>.img <span class="span-orange">is None</span>:
+		print('Could not load map file {}'.format(MAP_FILE), file=sys.stderr)
+		sys.exit(<span class="span-lightblue">1</span>)
+
+	<span class="span-violet">self</span>.area_actual = <span class="span-lightblue">0</span>
+	<span class="span-violet">self</span>.sailor_actual = [<span class="span-lightblue">0</span>, <span class="span-lightblue">0</span>]  # As "local" coords within search area
+	<span class="span-violet">self</span>.sa1 = <span class="span-violet">self</span>.img[SA1_CORNERS[<span class="span-lightblue">1</span>]: SA1_CORNERS[<span class="span-lightblue">3</span>], SA1_CORNERS[<span class="span-lightblue">0</span>]: SA1_CORNERS[<span class="span-lightblue">2</span>]]
+	<span class="span-violet">self</span>.sa2 = <span class="span-violet">self</span>.img[SA2_CORNERS[<span class="span-lightblue">1</span>]: SA2_CORNERS[<span class="span-lightblue">3</span>], SA2_CORNERS[<span class="span-lightblue">0</span>]: SA2_CORNERS[<span class="span-lightblue">2</span>]]
+	<span class="span-violet">self</span>.sa3 = <span class="span-violet">self</span>.img[SA3_CORNERS[<span class="span-lightblue">1</span>]: SA3_CORNERS[<span class="span-lightblue">3</span>], SA3_CORNERS[<span class="span-lightblue">0</span>]: SA3_CORNERS[<span class="span-lightblue">2</span>]]
+						</code>
+					</pre>
+            </div>
+        </section>
+        <section class="courses section-1" id="lang-courses">
+            <h3 class="section-header section-header-left">Language courses</h3>
+            <div class="section-content">
+                <ul>
+                    <li>English courses iSpeak: Current English level - <span class="eng-lvl">B2</span></li>
+                    <li>Polish courses Zgoda: Current Polish level - <span class="eng-lvl">A2</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects section-2" id="projects">
+            <h3 class="section-header section-header-right">Projects</h3>
+            <div class="section-content">
+                <div class="img-container">
+                    <a href="https://terraincom.by" target="_blank"><img src="images/terra.png" class="terra-img" alt="terra-preview"></a>
+                    <div class="terra-label">Terra Incom Company webpage</div>
+                </div>
+                <ul class="ul-centered">
+                    <li>CMS: ModX</li>
+                    <li>Core language: PHP</li>
+                    <li>Frontend: HTML & CSS, JS</li>
+                </ul>
+            </div>
+        </section>
     </main>
-
-    <aside>
-        <section class="contacts">Contacts</section>
-    </aside>
-
     <footer>
-        Footer
+        <div class="footer-content">
+            <ul>
+                <li><a href="https://github.com/nova-vl"><img src="images/github-square-brands2.svg" alt="github" id="gh-icon"></a></li>
+                <li class="footer-text"><span>Rolling Scopes, 2024</span></li>
+                <li><a href="https://rs.school/courses/javascript-ru"><img src="images/logo.png" alt="rs-logo" id="rs"></a></li>
+            </ul>
+        </div>
     </footer>
 </div>
 </body>
